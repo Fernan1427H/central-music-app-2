@@ -18,14 +18,13 @@ import Storage from "./pages/Storage";
 import ShopCart from "./pages/ShopCart";
 import MyUser from "./pages/MyUser";
 import CardItems from "./pages/CardItems";
-// import NavHeader from "./components/NavHeader";
 import "normalize.css";
 
 const App = () => {
   return (
     <>
       <Router>
-        {/* <NavHeader /> */}
+        { }
         <Routes>
           <Route path="/" element={<Layout />} />
           <Route path="/guitars" element={<Guitars />} />

@@ -7,7 +7,7 @@ import { BsPerson } from "react-icons/bs";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import "./MenuItems.css"
 
-import imagen1 from "../img/Central-Music-Logo.png";
+import imagen1 from "../image/Central-Music-Logo.png";
 
 const NavHeader = () => {
   const [display, setDisplay] = useState('none')
@@ -30,21 +30,21 @@ const NavHeader = () => {
           <MenuItems menuItems={menuItems} />
         </Flex>
         <Flex w="100%" bgColor="gray.700" zIndex={20} h="100vh" pos="fixed" top="0" right="0" overflowY="auto" flexDir="column" display={display}>
-           <Flex justify="center">
+          <Flex justify="center">
             <IconButton
-            arial-label="Close Menu"
-            size="lg"
-            icon={<CloseIcon />}
-            isRound="true"
-            mt={2}
-            mb={5}
-            ml={9}
-            colorScheme="red"
-            onClick={() => setDisplay('none')}
+              arial-label="Close Menu"
+              size="lg"
+              icon={<CloseIcon />}
+              isRound="true"
+              mt={2}
+              mb={5}
+              ml={9}
+              colorScheme="red"
+              onClick={() => setDisplay('none')}
             />
           </Flex>
           <Flex className="menu" align="center" justifyContent="center" flexDirection="column">
-            <MenuItems menuItems={menuItems}/>
+            <MenuItems menuItems={menuItems} />
           </Flex>
         </Flex>
       </Box>

@@ -1,6 +1,6 @@
 import { Box, Heading, useBreakpointValue } from "@chakra-ui/react";
 import React from "react";
-import bgImage from "../img/hero.png";
+import bgImage from "../image/hero.png";
 import NavHeader from "./NavHeader";
 import SubHero from "./SubHero";
 

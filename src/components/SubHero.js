@@ -1,6 +1,6 @@
 import { Box, Button, Heading } from "@chakra-ui/react";
 import React from "react";
-import PinkImg from "../img/img-pink2.png";
+import PinkImg from "../image/img-pink2.png";
 
 const SubHero = () => {
   return (
@@ -11,7 +11,7 @@ const SubHero = () => {
       bgSize="cover"
       bgPosition="center"
       bgRepeat="no-repeat"
-      mt={{base:"13rem",sm:"13rem", md:"11rem", lg:"12rem",xl:"9.68rem"}}
+      mt={{ base: "13rem", sm: "13rem", md: "11rem", lg: "12rem", xl: "9.68rem" }}
       mx={{ base: "6%", sm: "7%", md: "4rem", xl: "4rem" }}
       // ml="60px"
       // mr="60px"
